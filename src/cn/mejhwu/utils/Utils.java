@@ -35,4 +35,13 @@ public class Utils {
         }
         System.out.println(arr[arr.length-1]);
     }
+
+    public static void printListNode(ListNode head) {
+        ListNode node = head;
+        while (head != null) {
+            System.out.println(node.val);
+            node = node.next;
+        }
+    }
+
 }

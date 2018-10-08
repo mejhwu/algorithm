@@ -6,6 +6,19 @@ import cn.mejhwu.utils.Utils;
  * @author mejhwu
  * @version 1.0
  * @date 2018/10/07
+ * Given a 32-bit signed integer, reverse digits of an integer.
+ * Example 1:
+ *
+ * Input: 123
+ * Output: 321
+ * Example 2:
+ *
+ * Input: -123
+ * Output: -321
+ * Example 3:
+ *
+ * Input: 120
+ * Output: 21
  */
 
 public class _007_ReverseInteger {
